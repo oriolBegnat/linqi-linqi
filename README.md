@@ -13,7 +13,7 @@
 - [Bibliografia](#Bibliografia)
 - [Guías de usuario](#Guías-de-usuario)
 
-### El _porqué_
+# El _porqué_
 Hace casi 15 años que empecé a producir música, y todo ha cambiado bastante desde entonces. La **creación musical está más democratizada que nunca** y, la forma en que la consumimos tampoco tiene nada que ver a lo que era antaño.
 
 Sin embargo, la producción musical siempre contará con dos factores fundamentales, que sin los conocimientos adecuados pueden suponer un verdadero quebradero de cabeza:
