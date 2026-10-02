@@ -39,11 +39,15 @@ Linqi-linqi es una herramienta **dirigida a todo aquel músico o productor que e
 - Seguridad informática
 
 ## Materiales necesarios
-
+- Web Audio API — grafos de procesamiento de audio en tiempo real.
+- Sortable.js — reordenación _drag & drop_.
+- Canvas API — visualizador de forma de onda y espectro.
 
 ## Recursos
 - [Nuevo Diccionario Español - Quechua / Quechua - Español por Julio Calvo Pérez (Academia Peruana de la Lengua)](https://apl.org.pe/wp-content/uploads/2022/07/DICCIONARIO-Quechua-espanol-VOL_1.pdf)
 - [Qichwa - Diccionario Quechua](https://www.dic.qichwa.net/#/search?word=yawray&type=0&target=es&fromQuechua=1)
+- [Voxis - Librería Open-Source de Procesamiento de Audio](https://voxis.org/)
+- [RACK4MASTER](https://github.com/rack4master/rack4master.github.io)
 
 # Briefing de ideas
 
