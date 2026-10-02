@@ -3,15 +3,15 @@
 
 ## Índice
 - [El _porqué_](#-El-_porqué_)
-- [Briefing de ideas](#-Briefing-de-ideas)
-- [Arquitectura del software](#Arquitectura-del-software)
-- [Tecnologías a utilizar](#Tecnologías-a-utilizar)
-- [Red](#Red)
-- [Web](#Web)
-- [Servicios](#Servicios)
-- [Conclusiones](#Conclusiones)
-- [Bibliografia](#Bibliografia)
-- [Guías de usuario](#Guías-de-usuario)
+- [Briefing de ideas](#briefing-de-ideas)
+- [Arquitectura del software](#arquitectura-del-software)
+- [Tecnologías a utilizar](#tecnologias-a-utilizar)
+- [Red](#red)
+- [Web](#web)
+- [Servicios](#servicios)
+- [Conclusiones](#conclusiones)
+- [Bibliografia](#bibliografia)
+- [Guías de usuario](#guías-de-usuario)
 
 # El _porqué_
 Hace casi 15 años que empecé a producir música, y todo ha cambiado bastante desde entonces. La **creación musical está más democratizada que nunca** y, la forma en que la consumimos tampoco tiene nada que ver a lo que era antaño.
