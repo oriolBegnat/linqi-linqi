@@ -28,11 +28,8 @@ Y este es uno de los motivos de la existencia de este proyecto: acercar el compl
 ## Objetivos
 - Desarrollar una plataforma web de masterización de audio: el usuario debe subir el archivo, añadir efectos en cadena, que escuche los cambios en tiempo real y, finalmente, pueda descargar el resultado final.
 - Implementar una **guía de pasos** que el usuario pueda seguir durante la sesión.
+
   - Incluir en esta guía: imágenes, consejos, trucos y glosario, para que el usuario consulte y entienda mejor el funcionamiento de los efectos y los procesos.
-
-Obviamente, el **primer objetivo** es que la aplicación funcione como debe hacerlo: que el usuario suba el archivo de audio, añada los efectos en cadena (siendo estos, funcionales); escuche los cambios en tiempo real y, finalmente, descargue el resultado final.
-
-No obstante, el **siguiente objetivo** (y en mi opinión el más fundamental), es implementar una **guía de pasos** que pueda seguir el usuario durante el proceso. Que, o bien con pop-ups, o bien con menús laterales; se pueda consultar (a poder ser con imágenes) además de incluir consejos, trucos y glosario, para entender mejor el funcionamiento de los efectos.
 
 ## Público objetivo
 Linqi-linqi es una herramienta **dirigida a todo aquel músico o productor que esté empezando**, y/o que no disponga de los recursos necesarios para conseguir que su música suene mejor. Ya sea joven o mayor, pues _el arte no entiende de edades_.
