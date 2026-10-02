@@ -2,8 +2,8 @@
 **Web app de mastering de audio**
 
 ## Índice
-- [El _porqué_](#El-_porqué_)
-- [Briefing de ideas](#Briefing-de-ideas)
+- [El _porqué_](#-El-_porqué_)
+- [Briefing de ideas](#-Briefing-de-ideas)
 - [Arquitectura del software](#Arquitectura-del-software)
 - [Tecnologías a utilizar](#Tecnologías-a-utilizar)
 - [Red](#Red)
@@ -25,27 +25,27 @@ Pero mezclar y masterizar no es simple (ni barato): muchos botones, _knobs_, efe
 
 Y este es uno de los motivos de la existencia de este proyecto: acercar el complejo mundo del mastering **a cualquiera que lo necesite**, de forma **sencilla** y guiando al usuario en cada paso.
 
-### Objetivos
+## Objetivos
 Obviamente, el **primer objetivo** es que la aplicación funcione como debe hacerlo: que el usuario suba el archivo de audio, añada los efectos en cadena (siendo estos, funcionales); escuche los cambios en tiempo real y, finalmente, descargue el resultado final.
 
 No obstante, el **siguiente objetivo** (y en mi opinión el más fundamental), es implementar una **guía de pasos** que pueda seguir el usuario durante el proceso. Que, o bien con pop-ups, o bien con menús laterales; se pueda consultar (a poder ser con imágenes) además de incluir consejos, trucos y glosario, para entender mejor el funcionamiento de los efectos.
 
-### Público objetivo
+## Público objetivo
 Linqi-linqi es una herramienta **dirigida a todo aquel músico o productor que esté empezando**, y/o que no disponga de los recursos necesarios para conseguir que su música suene mejor. Ya sea joven o mayor, pues _el arte no entiende de edades_.
 
-### Módulos relacionados
+## Módulos relacionados
 - Aplicaciones web
 - Servicios de red
 - Seguridad informática
 
-### Materiales necesarios
+## Materiales necesarios
 
 
-### Recursos
+## Recursos
 - [Nuevo Diccionario Español - Quechua / Quechua - Español por Julio Calvo Pérez (Academia Peruana de la Lengua)](https://apl.org.pe/wp-content/uploads/2022/07/DICCIONARIO-Quechua-espanol-VOL_1.pdf)
 - [Qichwa - Diccionario Quechua](https://www.dic.qichwa.net/#/search?word=yawray&type=0&target=es&fromQuechua=1)
 
-# 3. Briefing de ideas
+# Briefing de ideas
 
 # 4. Arquitectura del software
 
