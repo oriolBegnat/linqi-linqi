@@ -2,7 +2,7 @@
 **Web app de mastering de audio**
 
 ## Índice
-- [El _porqué_](#-El-_porqué_)
+- [El _porqué_](#el-_porqué_)
 - [Briefing de ideas](#briefing-de-ideas)
 - [Arquitectura del software](#arquitectura-del-software)
 - [Tecnologías a utilizar](#tecnologias-a-utilizar)
