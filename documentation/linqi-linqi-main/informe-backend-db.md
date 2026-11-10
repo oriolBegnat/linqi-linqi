@@ -1,16 +1,18 @@
-# Informe Backend - DB
+---
+description: Información para almacenar en la base de datos de mi proyecto
+---
 
-#### "Información para almacenar en la base de datos de mi proyecto"
+# Informe Backend - DB
 
 #### 1. **Descripción general del proyecto web**
 
 * **¿De qué trata tu web?**
 
-WebApp para practicar y aprender sobre la masterización de audio.
+Aplicación web diseñada para el aprendizaje y la práctica acerca de la masterización de audio.
 
 * **¿Qué funcionalidades ofrecerá a los usuarios?**
 
-La aplicación permite al usuario crearse una cuenta, crear proyectos, añadir y modificar efectos, e importar sus propios archivos de audio MP3 y exportarlo de vuelta.
+La aplicación permite al usuario crearse una cuenta, crear proyectos, añadir y modificar efectos, e importar sus propios archivos de audio MP3 y para después, exportarlo de vuelta con el resultado final.
 
 #### 2. **Identificación de entidades principales**
 
@@ -18,13 +20,20 @@ La aplicación permite al usuario crearse una cuenta, crear proyectos, añadir y
 
 Los elementos que deberán almacenarse son los datos de usuarios y sus proyectos, datos de los audios subidos y datos sobre los efectos.
 
-1. **¿Qué tema de información almacena?** \
-   Usuarios, proyectos, efectos y audios.
-2. <mark style="color:$warning;">**¿Por qué necesitas guardarla en la base de datos?**</mark> _<mark style="color:$warning;">-> Esto nos ayudará a entender si es necesario guardar esta información o no.</mark>_
+**¿Qué tema de información almacena?**&#x20;
+
+* _UserProfile_
+* _Project_
+* _Audio_
+* _Effect_
+
+<figure><img src="../.gitbook/assets/Diagrama Entidad-Relación linqi-linqi.png" alt=""><figcaption></figcaption></figure>
 
 #### 3. **Datos que se deben guardar de cada entidad (atributos)**
 
-**Usuario**:
+<details>
+
+<summary><em><strong>UserProfile</strong></em></summary>
 
 * Nombre de usuario — Texto — VARCHAR
 * Nombre — Texto — VARCHAR
@@ -33,23 +42,37 @@ Los elementos que deberán almacenarse son los datos de usuarios y sus proyectos
 * Contraseña — Texto — VARCHAR
 * Fecha de registro  — Fecha — TIMESTAMP
 
-**Proyecto**:
+</details>
+
+<details>
+
+<summary><em><strong>Project</strong></em></summary>
 
 * Nombre de proyecto — Texto — VARCHAR
 * Fecha de creación — Fecha — TIMESTAMP
 * Fecha de modificación — Fecha — DATETIME
 
-**Audio**:
+</details>
+
+<details>
+
+<summary><em><strong>Audio</strong></em></summary>
 
 * Nombre de audio — Texto — VARCHAR
 * Tamaño (MB) — Número — DECIMAL
 * Fecha de subida — Fecha — DATETIME
 
-**Efecto**:
+</details>
+
+<details>
+
+<summary><em><strong>Effect</strong></em></summary>
 
 * Nombre de efecto — Texto — VARCHAR
 * Descripción — Texto — TEXT
 * URL — Texto — VARCHAR
+
+</details>
 
 #### 4. **Relaciones entre las entidades**
 
@@ -61,17 +84,34 @@ Los elementos que deberán almacenarse son los datos de usuarios y sus proyectos
 
 #### 5. **Ejemplo de datos (simulación)**
 
-* Incluye un ejemplo de cada entidad con datos ficticios pero realistas.
+{% tabs %}
+{% tab title="UserProfile" icon="user" %}
+* _Nombre de usuario:_ ackackack
+* _Nombre:_ Oriol
+* _Apellidos:_ Peña
+* _Email:_ [openaopena@gmail.com](https://dmuwut6e40u5o.cloudfront.net/ultra/uiv4001.4.0-rel.31_82fdb43)
+* _Contraseña:_ a5d1d4bd24b50c460c023388de22b15ebc4d70c86619bcd2347fb35ae04526105bca2b224da0c9cba49f57f9c7a5c25cd7d9e30d71e76d9ca91e11ae27276580
+* _Fecha de registro:_ 10/09/2026
+{% endtab %}
 
-_Ejemplo de registro en la tabla **Usuario**:_
+{% tab title="Project" icon="folder" %}
+* _Nombre de proyecto:_ Proyecto 1
+* _Fecha de creación:_ 10/09/2026
+* _Fecha de modificación:_ 13/09/2026
+{% endtab %}
 
-* _Nombre de usuario: ackackack_
-* _Nombre: Oriol_
-* _Apellidos: Peña_
-* _Email:_ [_openaopena@gmail.com_](https://dmuwut6e40u5o.cloudfront.net/ultra/uiv4001.4.0-rel.31_82fdb43)
-* _Fecha de registro: 10/09/2026_
+{% tab title="Audio" icon="volume-high" %}
+* _Nombre de audio:_ Maqueta\_20261006
+* _Tamaño (MB)_: 12.30
+* _Fecha de subida:_ 10/09/2026
+{% endtab %}
 
-🎯 **Objetivo:** Ver si los datos que se han pensado tienen sentido y si falta algo importante.
+{% tab title="Effect" icon="waveform" %}
+* _Nombre de efecto:_ EQ
+* _Descripción: "_&#x55;n ecualizador paramétrico (EQ paramétrico) es una herramienta de procesamiento de audio que permite modificar el volumen de frecuencias específicas con total precisión."
+* _URL:_ ¯\\\_(o.o')\_/¯
+{% endtab %}
+{% endtabs %}
 
 #### 6. Reflexiones, d**ificultades y dudas que tienes sobre la base de datos**
 
