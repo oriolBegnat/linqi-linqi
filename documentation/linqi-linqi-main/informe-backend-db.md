@@ -115,13 +115,7 @@ Los elementos que deberán almacenarse son los datos de usuarios y sus proyectos
 
 #### 6. Reflexiones, d**ificultades y dudas que tienes sobre la base de datos**
 
-* ¿Qué partes te han resultado más difíciles de pensar?
+Pensar tanto en los datos, como en todas las posibles relaciones y, tratar de darle forma teniendo delante una hoja en blanco es, por mucho, lo que se ha antojado más difícil inicialmente.
 
-Lo que se ha antojado más difícil inicialmente ha sido pensar tanto en los datos como en todas las posibles relaciones y después, tratar de darle forma estando ante una hoja en blanco.
-
-* <mark style="color:$warning;">¿Qué no tienes claro sobre la información que hay que guardar?</mark>
-
-
-
-* <mark style="color:$warning;">Cualquier pregunta que se os ocurra mientras realizabas el informe.</mark>
+Las dudas que pueda tener ahora, son más por toda la información y/o tablas que puedan surgir según avance el proyecto.
 
