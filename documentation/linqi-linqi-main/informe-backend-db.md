@@ -4,19 +4,19 @@ description: Información para almacenar en la base de datos de mi proyecto
 
 # Informe Backend - DB
 
-#### 1. **Descripción general del proyecto web**
+### **Descripción general del proyecto web**
 
-* **¿De qué trata tu web?**
+**¿De qué trata tu web?**
 
 Aplicación web diseñada para el aprendizaje y la práctica acerca de la masterización de audio.
 
-* **¿Qué funcionalidades ofrecerá a los usuarios?**
+**¿Qué funcionalidades ofrecerá a los usuarios?**
 
 La aplicación permite al usuario crearse una cuenta, crear proyectos, añadir y modificar efectos, e importar sus propios archivos de audio MP3 y para después, exportarlo de vuelta con el resultado final.
 
-#### 2. **Identificación de entidades principales**
+### **Identificación de entidades principales**
 
-* **¿Qué elementos importantes hay en tu web que necesitan almacenarse?**
+**¿Qué elementos importantes hay en tu web que necesitan almacenarse?**
 
 Los elementos que deberán almacenarse son los datos de usuarios y sus proyectos, datos de los audios subidos y datos sobre los efectos.
 
@@ -29,7 +29,7 @@ Los elementos que deberán almacenarse son los datos de usuarios y sus proyectos
 
 <figure><img src="../.gitbook/assets/Diagrama Entidad-Relación linqi-linqi.png" alt=""><figcaption></figcaption></figure>
 
-#### 3. **Datos que se deben guardar de cada entidad (atributos)**
+### **Datos que se deben guardar de cada entidad (atributos)**
 
 <details>
 
@@ -74,7 +74,7 @@ Los elementos que deberán almacenarse son los datos de usuarios y sus proyectos
 
 </details>
 
-#### 4. **Relaciones entre las entidades**
+### **Relaciones entre las entidades**
 
 ¿Cómo se relacionan unas entidades con otras?
 
@@ -82,7 +82,7 @@ Los elementos que deberán almacenarse son los datos de usuarios y sus proyectos
 * Un proyecto solo puede tener un audio.
 *
 
-#### 5. **Ejemplo de datos (simulación)**
+### **Ejemplo de datos (simulación)**
 
 {% tabs %}
 {% tab title="UserProfile" icon="user" %}
@@ -113,7 +113,7 @@ Los elementos que deberán almacenarse son los datos de usuarios y sus proyectos
 {% endtab %}
 {% endtabs %}
 
-#### 6. Reflexiones, d**ificultades y dudas que tienes sobre la base de datos**
+### Reflexiones, d**ificultades y dudas que tienes sobre la base de datos**
 
 Pensar tanto en los datos, como en todas las posibles relaciones y, tratar de darle forma teniendo delante una hoja en blanco es, por mucho, lo que se ha antojado más difícil inicialmente.
 
