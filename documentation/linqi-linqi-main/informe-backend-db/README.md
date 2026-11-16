@@ -27,7 +27,7 @@ Los elementos que deberán almacenarse son los datos de usuarios y sus proyectos
 * _Audio_
 * _Effect_
 
-<figure><img src="../.gitbook/assets/Diagrama Entidad-Relación linqi-linqi.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Diagrama Entidad-Relación linqi-linqi.png" alt=""><figcaption></figcaption></figure>
 
 ### **Datos que se deben guardar de cada entidad (atributos)**
 
